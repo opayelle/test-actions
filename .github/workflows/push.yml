@@ -31,9 +31,8 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-    - name: Inject slug/short variables
 
-    - name: Get GitHub slug
+    - name: Inject slug/short variables
       uses: rlespinasse/github-slug-action@v2.x
 
     - name: Print slug/short variables
